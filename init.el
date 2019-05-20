@@ -30,6 +30,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (dracula)))
+ '(custom-safe-themes
+   (quote
+    ("b46ee2c193e350d07529fcd50948ca54ad3b38446dcbd9b28d0378792db5c088" default)))
  '(package-selected-packages (quote (better-defaults))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
